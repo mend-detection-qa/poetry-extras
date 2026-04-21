@@ -1,0 +1,304 @@
+{
+  "_comment": "Expected dependency tree for the optional-extras Poetry probe. Runtime fields (orgToken, userKey, timestamps, extraProperties) are placeholders — downstream comparison tooling must mask or ignore them. Versions are pinned to the Poetry 2.3.2 resolution as of 2026-04-21.",
+  "updateType": "OVERRIDE",
+  "type": "UPDATE",
+  "agent": "generic-poetry",
+  "agentVersion": "0.0.0",
+  "pluginVersion": "0.0.0",
+  "orgToken": "__PLACEHOLDER__",
+  "userKey": "__PLACEHOLDER__",
+  "timeStamp": 0,
+  "requesterEmail": "__PLACEHOLDER__",
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "extraProperties": {
+    "contributionsAvailable": "false",
+    "commitUrl": "__PLACEHOLDER__",
+    "gitHubInstallationId": "__PLACEHOLDER__",
+    "scmApplicationId": "__PLACEHOLDER__",
+    "branchName": "main",
+    "checkRunId": "__PLACEHOLDER__",
+    "userOrgToken": "__PLACEHOLDER__",
+    "commitId": "__PLACEHOLDER__",
+    "scmInstallationId": "__PLACEHOLDER__",
+    "repository": "mend-detection-qa/poetry-extras",
+    "scaResults": "__PLACEHOLDER__"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["POETRY"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "PackageManager"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "__PLACEHOLDER__",
+      "dependencies": [
+        {
+          "artifactId": "requests",
+          "version": "2.33.1",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "requests-2.33.1-py3-none-any.whl",
+          "dependencyType": "RESOLVED",
+          "children": [
+            {
+              "artifactId": "certifi",
+              "version": "2026.2.25",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "certifi-2026.2.25-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "charset-normalizer",
+              "version": "3.4.7",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "charset_normalizer-3.4.7-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "idna",
+              "version": "3.12",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "idna-3.12-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "urllib3",
+              "version": "2.6.3",
+              "groupId": "",
+              "systemPath": "",
+              "optional": false,
+              "filename": "urllib3-2.6.3-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        },
+        {
+          "artifactId": "fastapi",
+          "version": "0.136.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": true,
+          "filename": "fastapi-0.136.0-py3-none-any.whl",
+          "dependencyType": "RESOLVED",
+          "_extras": ["api"],
+          "children": [
+            {
+              "artifactId": "annotated-types",
+              "version": "0.7.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "annotated_types-0.7.0-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "anyio",
+              "version": "4.13.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "anyio-4.13.0-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "pydantic",
+              "version": "2.13.3",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "pydantic-2.13.3-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "pydantic-core",
+              "version": "2.46.3",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "pydantic_core-2.46.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "starlette",
+              "version": "1.0.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "starlette-1.0.0-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "typing-extensions",
+              "version": "4.15.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "typing_extensions-4.15.0-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        },
+        {
+          "artifactId": "uvicorn",
+          "version": "0.45.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": true,
+          "filename": "uvicorn-0.45.0-py3-none-any.whl",
+          "dependencyType": "RESOLVED",
+          "_extras": ["api"],
+          "children": [
+            {
+              "artifactId": "click",
+              "version": "8.3.2",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "click-8.3.2-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "h11",
+              "version": "0.16.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "h11-0.16.0-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        },
+        {
+          "artifactId": "scikit-learn",
+          "version": "1.8.0",
+          "groupId": "",
+          "systemPath": "",
+          "optional": true,
+          "filename": "scikit_learn-1.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+          "dependencyType": "RESOLVED",
+          "_extras": ["ml"],
+          "children": [
+            {
+              "artifactId": "joblib",
+              "version": "1.5.3",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "joblib-1.5.3-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "numpy",
+              "version": "2.4.4",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "numpy-2.4.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "scipy",
+              "version": "1.17.1",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "scipy-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "threadpoolctl",
+              "version": "3.6.0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "threadpoolctl-3.6.0-py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        },
+        {
+          "artifactId": "pandas",
+          "version": "3.0.2",
+          "groupId": "",
+          "systemPath": "",
+          "optional": true,
+          "filename": "pandas-3.0.2-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+          "dependencyType": "RESOLVED",
+          "_extras": ["ml"],
+          "children": [
+            {
+              "artifactId": "numpy",
+              "version": "2.4.4",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "numpy-2.4.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            },
+            {
+              "artifactId": "python-dateutil",
+              "version": "2.9.0.post0",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": [
+                {
+                  "artifactId": "six",
+                  "version": "1.17.0",
+                  "groupId": "",
+                  "systemPath": "",
+                  "optional": true,
+                  "filename": "six-1.17.0-py2.py3-none-any.whl",
+                  "dependencyType": "RESOLVED",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "artifactId": "tzdata",
+              "version": "2026.1",
+              "groupId": "",
+              "systemPath": "",
+              "optional": true,
+              "filename": "tzdata-2026.1-py2.py3-none-any.whl",
+              "dependencyType": "RESOLVED",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
